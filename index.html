@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="home">
+        <div>
+            <nav>
+                <ul class="sidebar">
+
+                    <li id="close" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                                viewBox="0 -960 960 960" width="26">
+                                <path fill="#fff"
+                                    d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                            </svg></a></li>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Certificates</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <ul>
+                    <li id="logo1"><a href="#">NS</a></li>
+                    <li class="hide"><a href="#">Home</a></li>
+                    <li class="hide"><a href="#">About</a></li>
+                    <li class="hide"><a href="#">Certificates</a></li>
+                    <li class="hide"><a href="#">Contacts</a></li>
+
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="26" viewBox="0 -960 960 960" width="26">
+                                <path fill="#fff"
+                                    d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                            </svg></a></li>
+                </ul>
+                </nai>
+        </div>
+
+        <div id="center">
+            <h1>Hi, I am <span id="name">Nikhi Sharma</span></h1>
+            <h5 id="college">Student at the ICFAI University Jaipur</h5>
+            <h5 id="welcome">Welcome to my Portfolio.</h5>
+        </div>
+
+        <div id="img" class="photo center"></div>
+    </div>
+
+    <!-- ---------------------------------------about-------------------------------------------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <!-- First column  -->
+                        <img src="photo.png" />
+                    </div>
+                    <div class="about-col-2">
+                        <!-- Second column  -->
+
+                        <h1 class="sub-title">About Me</h1>
+                        <br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+                            iusto consequatur natus repudiandae, fugiat corporis ipsa,
+                            accusantium illum tempore, blanditiis quas laboriosam laudantium
+                            consectetur voluptatem ducimus. Ipsa odio sint facere, tenetur,
+                            nostrum rem debitis distinctio voluptas mollitia voluptatem
+                            tempore id ratione error consectetur veniam, repudiandae cum
+                            obcaecati amet repellendus. Quia!
+                        </p>
+                        <br />
+
+                        <div class="tabs">
+                            <span class="tablink activelink" onclick="openTab('Skill')">Skill</Span>
+                            <span class="tablink" onclick="openTab('Education')">Education</span>
+                        </div>
+
+                        <div id="Skill" class="tabcontent activetab" style="display: block;">
+
+                            <ul>
+                                <li>
+                                    <span>Languages : </span>C/C++, Java, Python, JavaScript,
+                                    HTML/CSS
+                                </li>
+                                <li><span>Framework : </span>React.js, WorldPress</li>
+                                <li>
+                                    <span>Developer Tool : </span>Git, Github, Vs Code, IntelliJ
+                                    IDEA
+                                </li>
+                                <li><span>Database : </span>MySQL</li>
+                                <li><span>Others : </span>Linux, MS-Excel, Computer Typing</li>
+                            </ul>
+                        </div>
+
+                        <div id="Education" class="tabcontent">
+
+                            <ul>
+                                <li><span>zdvsdvsdgsdfgfdr</span>Bechlor in Computer Education</li>
+                                <li><span>zdvsdvsdgsdfgfdr</span>12th Commerce</li>
+                                <li><span>zdvsdvsdgsdfgfdr</span>10th</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vero incidunt numquam debitis expedita minus facilis tenetur, assumenda blanditiis. Beatae modi nostrum voluptate. Asperiores numquam ipsa consequuntur, ullam dolorum cumque?</p>
